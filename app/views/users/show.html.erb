@@ -14,7 +14,7 @@
     </td>
     <td class="sidebar round">
       <strong>Name</strong> <%= @user.name %><br />
-	  <strong>Juitts shared</strong> <%= @user.microposts.count %>
+	  <strong>Juitts posted</strong> <%= @user.microposts.count %><br />
       <strong>URL</strong>  <%= link_to user_path(@user), @user %>
     </td>
   </tr>
